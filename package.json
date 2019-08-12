@@ -1,0 +1,28 @@
+{
+  "name": "foodapicsv",
+  "version": "1.0.0",
+  "description": "Hopely this can work under netlify act as an API to collab with my certain android app (makan makan)",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm start app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saidihasan/foodapicsv.git"
+  },
+  "keywords": [
+    "javascript",
+    "netlify",
+    "csvtojson"
+  ],
+  "author": "Saidi Hasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saidihasan/foodapicsv/issues"
+  },
+  "homepage": "https://github.com/saidihasan/foodapicsv#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.1"
+  }
+}

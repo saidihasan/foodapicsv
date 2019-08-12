@@ -1,0 +1,3 @@
+id,food_name,rate,price,flavor,desc,time_to_serve,image
+1,Kangkung,4.5,11000,spicy-plain,Tumis Kangkung dengan rasa pedas dan biasa,11,null
+2,Toge,4.5,11000,spicy-plain,Tumis Toge dengan rasa pedas dan biasa,12,null
