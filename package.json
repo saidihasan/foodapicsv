@@ -1,28 +1,33 @@
 {
-  "name": "foodapicsv",
-  "version": "1.0.0",
-  "description": "Hopely this can work under netlify act as an API to collab with my certain android app (makan makan)",
-  "main": "app.js",
+  "name": "netlify-express",
+  "version": "0.0.1",
+  "description": "Example of how to deploy a Express.js Netlify app.",
+  "main": "functions/server.js",
   "scripts": {
-    "test": "npm start app.js"
+    "build": "netlify-lambda build express",
+    "start": "node server-local.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saidihasan/foodapicsv.git"
+    "url": "git+https://github.com/neverendingqs/netlify-express.git"
   },
   "keywords": [
-    "javascript",
     "netlify",
-    "csvtojson"
+    "express.js"
   ],
-  "author": "Saidi Hasan",
-  "license": "ISC",
+  "author": "neverendingqs",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/saidihasan/foodapicsv/issues"
+    "url": "https://github.com/neverendingqs/netlify-express/issues"
   },
-  "homepage": "https://github.com/saidihasan/foodapicsv#readme",
+  "homepage": "https://github.com/neverendingqs/netlify-express#readme",
   "dependencies": {
-    "csvtojson": "^2.0.10",
-    "express": "^4.17.1"
+    "csvtojson": "^2.0.10"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.17.1",
+    "netlify-lambda": "^0.4.0",
+    "serverless-http": "^1.6.0"
   }
 }
